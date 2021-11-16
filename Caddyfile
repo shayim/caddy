@@ -1,0 +1,11 @@
+oidc.local {
+  reverse_proxy localhost:8000
+}
+
+miasystem.local {
+  reverse_proxy localhost:4000
+}
+
+beings.local {
+  reverse_proxy localhost:3001
+}
